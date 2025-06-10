@@ -1,0 +1,1 @@
+package com.futbconnect.activities; public class MainActivity {}

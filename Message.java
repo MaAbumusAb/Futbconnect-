@@ -1,0 +1,1 @@
+package com.futbconnect.models; public class Message {}

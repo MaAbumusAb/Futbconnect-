@@ -1,0 +1,1 @@
+package com.futbconnect.adapters; public class ChatAdapter {}
