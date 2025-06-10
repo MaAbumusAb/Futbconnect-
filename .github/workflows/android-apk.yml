@@ -19,7 +19,7 @@ jobs:
         distribution: "temurin"
         java-version: 17
 
-    - name: Grant execute permission to gradlew
+    - name: Grant execute permission for gradlew
       run: chmod +x ./gradlew
 
     - name: Build debug APK
@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: futbconnect-apk
-        path: app/build/outputs/apk/debug/app-debug.ap
+        path: app/build/outputs/apk/debug/app-debug.apk
